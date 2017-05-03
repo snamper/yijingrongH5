@@ -1,0 +1,77 @@
+.masklayer {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background: rgba(255, 255, 255, 0.5);
+}
+.spinner {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-left: -0.25rem;
+  width: 0.6rem;
+  height: 0.72rem;
+}
+.spinner > div {
+  height: 100%;
+  width: 0.07rem;
+  float: left;
+  background: #f54a40;
+  -webkit-animation: stretch 1.2s infinite ease;
+}
+.spinner > div + div {
+  margin-left: 0.05rem;
+}
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+}
+.spinner .rect3 {
+  -webkit-animation-delay: -1s;
+}
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+}
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+}
+@-webkit-keyframes stretch {
+  0%,
+  40%,
+  100% {
+    -webkit-transform: scaleY(0.5);
+  }
+  20% {
+    -webkit-transform: scaleY(1);
+  }
+}
+.lidownload > div {
+  width: 100%;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  font-size: 0.1rem;
+  padding: 0 4%;
+  border-bottom: 1px solid #cccccc;
+}
+.lidownload a {
+  color: #333333;
+  display: block;
+  height: 0.4rem;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.lidownload p {
+  height: 0.4rem;
+  width: 5%;
+  float: left;
+  margin-right: 2%;
+  background: url('../../img/download.png') no-repeat center center;
+  background-size: 100% auto;
+}
+.lidownload .white {
+  background-color: #ffffff;
+}

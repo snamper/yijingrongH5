@@ -1,0 +1,114 @@
+//关于我们页面样式
+.content {
+    >div {
+        margin-bottom: 0;
+        padding: 0;
+        background-color:inherit;
+    }
+    .editionbox {
+        background-color: #ffffff;
+        width: 100%;
+        height: 1.4rem;
+        text-align: center;
+
+        img {
+            width: 0.58rem;
+            height: auto;
+            margin-top: 0.26rem;
+            margin-bottom: 0.16rem;
+        }
+
+        .telbox {
+            text-align: center;
+            .leftl {
+                display: inline-block;
+                text-align: center;
+                .left {
+                    float: left;
+                }
+                .right {
+                    float: right;
+                }
+            }
+
+
+            p{
+                // display: inline-block;
+                line-height: 0.16rem;
+                color: #999;
+            }
+        }
+
+
+    }
+
+    .introduction {
+        height: 0.26rem;
+        background-color: @base-color;
+        padding: 0 4%;
+        margin-top: 0.09rem;
+
+        &.introduction1 {
+            margin-bottom: 0.1rem;
+        }
+        span {
+            display: inline-block;
+            height: 0.26rem;
+            line-height: 0.26rem;
+            color: #fff;
+            font-size: 0.14rem;
+        }
+    }
+
+    .pbox {
+        padding: 0.18rem 4%;
+        background-color: #fff;
+
+        p {
+            line-height: 0.18rem;
+            font-size: 0.12rem;
+            color: #999;
+        }
+    }
+
+    .listbox {
+        background-color: #fff;
+        margin-top: 0.05rem;
+        padding: 0 4%;
+        padding-top: 0.1rem;
+        padding-bottom: 0.05rem;
+
+        .left {
+            width: 92%;
+            float: left;
+
+            a {
+                color: #3399cc;
+                font-size: 0.14rem;
+            }
+
+            p {
+                font-size: 0.12rem;
+                line-height: 0.16rem;
+                color: #999;
+            }
+
+        }
+
+        .right {
+            width: 8%;
+            float: right;
+            text-align:right;
+
+            span {
+                display: inline-block;
+                margin-top: 0.05rem;
+                height: 0.14rem;
+                width: 0.1rem;
+                background: url('@{img}/forward.png') no-repeat;
+                background-size: auto 100%;
+                background-position: center;
+            }
+        }
+    }
+}

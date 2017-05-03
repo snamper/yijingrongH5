@@ -1,0 +1,301 @@
+//登录页面样式
+.main {
+
+    .header {
+
+        ul{
+            li {
+                float: left;
+                width: 50%;
+
+                span {
+                    display: inline-block;
+                    height: 0.5rem;
+                    width: 0.6rem;
+                    &.active {
+                        border-bottom: 2px solid #fff;
+                    }
+                }
+
+                .backone {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 15%;
+                    height: 100%;
+                    display: block;
+                    background: url(../../img/backwhite.png) no-repeat center center;
+                    background-size: 0.11rem 0.19rem;
+                }
+            }
+        }
+    }
+    .c5 {
+        background-color: #fff;
+        .inputbox {
+            position: relative;
+            width: 92%;
+            margin: 0 auto;
+            padding: 0 0;
+            height: 0.5rem;
+            border-bottom: 1px solid #e5e5e5;
+            .span {
+                float: left;
+                width: 8%;
+                height: 0.49rem;
+                text-align: center;
+                span {
+                    display: inline-block;
+                    width: 12px;
+                    height: 18px;
+                    margin-top: 0.17rem;
+                    line-height: 0.49rem;
+                    vertical-align: middle;
+                    background: url('@{img}/iconlogin.png') no-repeat;
+                    background-size: 49px 17px;
+                    background-position: 2px 0;
+
+                    &.cl {
+                        width: 14px;
+                        background-position: -10px 0;
+                    }
+
+                    &.cl1 {
+                        width: 14px;
+                        background-position: -36px 1px;
+                    }
+                    &.active {
+                        background-position: -23px 1px;
+                    }
+
+                    &.cl2 {
+                        background: url('@{img}/iconlogin1.png') no-repeat;
+                        background-size: 100% auto;
+                    }
+                }
+            }
+
+            input {
+                float: right;
+                height: 0.49rem;
+                border-style: none;
+                width: 92%;
+                padding-left: 0.1rem;
+            }
+
+            .btn {
+                position: absolute;
+                width: 0.85rem;
+                height: 0.36rem;
+                right: 0;
+                top: 0.06rem;
+                border-style: none;
+                background-color: #f54a40;
+                font-size: 0.12rem;
+                color:#fff;
+
+            }
+
+            &.inp1 {
+                border-bottom: 0;
+
+                p {
+                    float: right;
+                    height: 0.49rem;
+                    width: 92%;
+                    line-height: 0.49rem;
+                    color: #0066ff;
+                    a {
+                        color: #0066ff;
+                    }
+                }
+            }
+        }
+
+        .buttonbox {
+            width: 92%;
+            margin: 0 auto;
+            padding: 0 0;
+            height: 0.44rem;
+            margin-top: 1.16rem;
+            button {
+                width: 100%;
+                height: 100%;
+                background-color: #f54a40;
+                border-style: none;
+                font-size: 0.15rem;
+                color: #fff;
+            }
+        }
+
+        .buttonbox1{
+            margin-top: 2.2rem;
+        }
+        .inputbox1 {
+            background-color: #f4f4f4;
+
+            .register {
+                background-color: #f4f4f4;
+                border-style: none;
+            }
+        }
+    }
+    .successCt {
+        background-color: #f54a40;
+        .eliminate {
+            background-color: #f54a40;
+
+            padding: 0 0;
+            margin: 0;
+            padding-top: 0.4rem;
+            padding-bottom: 0.5rem;
+
+            .picseccess {
+                height: 1.96rem;
+                background: url('@{img}/successPic.png') no-repeat;
+                background-size: auto 100%;
+                background-position:0.65rem 0;
+
+            }
+            .picseccess1 {
+                margin-top: 0.6rem;
+                height: 1rem;
+                background: url('@{img}/successPic1.png') no-repeat;
+                background-size: auto 100%;
+                background-position:center;
+            }
+
+            p {
+                text-align: center;
+                font-size: 0.22rem;
+                color: #fdd9d7;
+                padding-top: 0.16rem;
+            }
+            .pbtom {
+                font-size: 0.16rem;
+                padding-top: 0.14rem;
+            }
+            .buttonbox {
+                margin: 0 auto;
+                width: 92%;
+                height: 0.44rem;
+                margin-top: 0.32rem;
+                button {
+
+                    width: 100%;
+                    height: 100%;
+                    background-color: #ffffff;
+                    color: #f54a40;
+                    border-style: none;
+                    font-size: 0.18rem;
+                }
+            }
+        }
+
+    }
+}
+
+.agreement {
+    display:none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+
+    >div {
+        display: -webkit-box;
+        display: -webkit-flex;
+        -webkit-box-orient: vertical;
+        -webkit-flex-flow: column;
+        width: 100%;
+        height: 100%;
+        -webkit-overflow-scrolling: touch;
+        background-color: #ffffff;
+
+        .header {
+            height: 0.5rem;
+            line-height: 0.5rem;
+            background: #ab342d;
+
+            ul{
+                li {
+                    float: left;
+                    width: 50%;
+
+                    span {
+                        display: inline-block;
+                        height: 0.5rem;
+                        width: 0.6rem;
+                        color:#b2b2b2;
+
+                        &.active {
+                            border-bottom: 2px solid #b2b2b2;
+                        }
+                    }
+
+                    .backone {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 15%;
+                        height: 100%;
+                        display: block;
+                        background: url(../../img/backhui.png) no-repeat center center;
+                        background-size: 0.11rem 0.19rem;
+                    }
+                }
+            }
+        }
+
+        .title {
+            height: 0.4rem;
+            line-height: 0.4rem;
+            color:#f54a40;
+            text-align: center;
+            font-size: 0.16rem;
+            border-bottom: 1px solid #999;
+        }
+
+        .text {
+            -webkit-box-flex: 1;
+            -webkit-flex: 1;
+            width:100%;
+            height: 100%;
+            display: -webkit-box;
+            display: -webkit-flex;
+            -webkit-box-orient: vertical;
+            -webkit-flex-flow: column;
+            overflow-y: auto;
+            overflow-x: hidden;
+            -webkit-overflow-scrolling: touch;
+            padding:0 4%;
+
+            p {
+                line-height: 0.3rem;
+            }
+        }
+
+        .btn {
+            height: 0.7rem;
+            line-height: 0.7rem;
+            width: 100%;
+            background-color: #fff;
+
+            button {
+                margin:0.1rem auto;
+                display: block;
+                border:none;
+                background-color:#f54a40;
+                height: 0.5rem;
+                line-height: 0.5rem;
+                width: 92%;
+                text-align: center;
+                color: #fff;
+                font-size: 0.16rem;
+                font-weight: bold;
+            }
+        }
+    }
+}

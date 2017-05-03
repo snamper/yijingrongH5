@@ -1,0 +1,81 @@
+// ---------------------------------------
+// 搜索结果/资讯
+// ---------------------------------------
+.result {
+	width: 100%;
+	background: #fff;
+
+	.sitems {
+		width: 100%;
+		margin: 0 auto;
+
+		> div {
+			padding:0 4%;
+		}
+
+		>div +div {
+			margin-top: 0.1rem;
+			border-top: 1px solid #dfdfdf;
+		}
+
+		.title {
+			width: 80%;
+			float: left;
+			height: 0.5rem;
+			line-height: 0.5rem;
+			color: #000;
+			font-size: 0.16rem;
+
+			span {
+				color: @base-color;
+			}
+		}
+
+		.tag {
+			float: right;
+			width: 15%;
+			height: 0.5rem;
+			line-height: 0.5rem;
+			font-size: 0.14rem;
+			text-align: right;
+
+			&.qing {
+				color: #9f9f9f;
+			}
+
+			&.shou {
+				color:@base-color;
+			}
+
+			&.yu {
+				color:@base-color;
+			}
+		}
+
+		.left {
+			float: left;
+		}
+
+		.right {
+			float: right;
+			margin-right: 15%;
+		}
+
+		.center {
+			float:left;
+			margin-left:5%;
+		}
+
+		.info {
+			color: #9f9f9f;
+			line-height: 0.3rem;
+			font-size:0.12rem;
+		}
+
+		.label {
+			color: #9f9f9f;
+			line-height: 0.36rem;
+			font-size: 0.14rem;
+		}
+	}
+}
